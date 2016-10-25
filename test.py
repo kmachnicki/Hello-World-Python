@@ -15,13 +15,13 @@ class TestPrinter(TestCase):
         print_.assert_called_with(phrase_to_print)
 
     @patch('Printer.print', create=True)
-    def test_hello(self, print_):
+    def test_world(self, print_):
         phrase_to_print = "World"
         self.printer(phrase_to_print)
         print_.assert_called_with(phrase_to_print)
 
     @patch('Printer.print', create=True)
-    def test_hello(self, print_):
+    def test_hello_world(self, print_):
         phrase_to_print = "Hello World!"
         self.printer(phrase_to_print)
         print_.assert_called_with(phrase_to_print)
