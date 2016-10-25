@@ -2,7 +2,7 @@
 
 """
 This is the Hello-World-Python program ported to Python3 and improved
-by using the proper enterprise project patterns.
+by using the proper enterprise desing patterns.
 Originally written by kmachnicki
 Disclaimer: Yes, it is a joke :)
 """
