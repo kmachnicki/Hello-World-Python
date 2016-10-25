@@ -1,6 +1,8 @@
-# This is the heart of the program.
-# This class is responsible for printing the string provided by the caller.
-# It is a proxy for the print function.
+"""
+This is the heart of the program.
+This class is responsible for printing the string provided by the caller.
+It is a proxy for the print function.
+"""
 
 
 class Printer:
