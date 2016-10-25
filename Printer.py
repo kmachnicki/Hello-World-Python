@@ -4,7 +4,7 @@
 
 
 class Printer:
-    # __init__ is responsible for initializing the _printer member, so we can use it later.
+    # __init__
     def __init__(self):
         pass
 
