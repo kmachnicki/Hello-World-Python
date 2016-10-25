@@ -26,6 +26,12 @@ class TestPrinter(TestCase):
         self.printer(phrase_to_print)
         print_.assert_called_with(phrase_to_print)
 
+    @patch('Printer.print', create=True)
+    def test_empty(self, print_):
+        phrase_to_print = ""
+        self.printer(phrase_to_print)
+        print_.assert_called_with(phrase_to_print)
+
 
 class TestPrinterFactory(TestCase):
     def test_create_printer(self):
